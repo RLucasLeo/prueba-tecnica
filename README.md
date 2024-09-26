@@ -7,9 +7,7 @@ Asegúrate de tener instalado Java 17, Apache Maven 3.9.x y MySQL 8.0.x.
 ## Cómo ejecutar la aplicación
 
 1. Ubícate en la carpeta `demo` a través de la consola (Git Bash, PowerShell, etc.).
-2. Ejecuta el comando `mvn spring-boot:run`.
-3. Encontrarás la documentación de Swagger en `http://localhost:8080/swagger-ui/index.html`,
-   donde encontrarás las rutas a utilizar en este servicio, además de los JSON que deberás enviar y cuáles recibirás como respuesta a tus peticiones.
+2. Ejecuta el comando `mvn spring-boot:run` para levantar el proyecto.
 4. Se realizará una petición POST a `http://localhost:8080/sign-up` con el JSON obtenido en la documentación.
    Copia la respuesta del apartado "token".
 5. Para realizar el inicio de sesión, se hará una solicitud POST a `http://localhost:8080/login`.
