@@ -1,3 +1,5 @@
+Asegúrate de tener instalado Java 17, Apache Maven 3.9.x y MySQL 8.0.x.
+
 **Conexion a la Base de datos MySQL***
 Dirígete al archivo `application.properties` ubicado en `src/main/prueba_tecnica/resources`.
    Realiza el cambio de usuario y contraseña para la conexión a la BDD (Líneas 5 y 6).
