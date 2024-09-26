@@ -1,7 +1,7 @@
 # Documentación
 
-La prueba técnica fue desarrollada utilizando Java 17, Spring Boot 3.3, JWT y MySQL.
-Las especificaciones las encontraras en la carpeta Documentacion
+La prueba técnica fue desarrollada utilizando Java 17, Spring Boot 3.3, JWT y MySQL.  
+Las especificaciones las encontraras en la carpeta Documentacion.
 
 ## Cómo ejecutar la aplicación
 
