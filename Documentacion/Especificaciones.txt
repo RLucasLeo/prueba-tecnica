@@ -6,7 +6,7 @@ Asegurarse de tener instalado Java 17, Apache Maven 3.9.x y MySQL 8.0.x
 **Como ejecutar la applicacion**
 1.-Dirigirse al archivo "application.properties" ubicado en "src/main/prueba_tecnica/resources"
     Realizar el cambio de usuario y contraseña para la conexion a la BDD (Linea 5 y 6)
-2.-Ubicarse en la carpeta demo a traves de la consola (gitbash, powershell, etc)
+2.-Ubicarse en la carpeta "demo" a traves de la consola (gitbash, powershell, etc)
 3.-Ejecutar el comando "mvn spring-boot:run"
 4.-Encontraras la documentacion de Swagger en "http://localhost:8080/swagger-ui/index.html"
     Donde encontrarás las rutas a utilizar en este servicio, además de los JSON que deberá enviar y cuales recibirá como respuesta a sus peticiones
