@@ -6,7 +6,8 @@ Las especificaciones las encontraras en la carpeta Documentacion.
 ## Cómo ejecutar la aplicación
 
 1. Ubícate en la carpeta `demo` a través de la consola (Git Bash, PowerShell, etc.).
-2. Ejecuta el comando `mvn spring-boot:run` para levantar el proyecto.
+2. Realizar la instalación limpia de las dependencias necesarias de maven con el comando `mvn clean install`.
+3. Ejecuta el comando `mvn spring-boot:run` para levantar el proyecto.
 4. Se realizará una petición POST a `http://localhost:8080/sign-up` con el JSON obtenido en la documentación.
    Copia la respuesta del apartado "token".
 5. Para realizar el inicio de sesión, se hará una solicitud POST a `http://localhost:8080/login`.
