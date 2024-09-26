@@ -2,8 +2,6 @@
 
 La prueba técnica fue desarrollada utilizando Java 17, Spring Boot 3.3, JWT y MySQL.
 
-Asegúrate de tener instalado Java 17, Apache Maven 3.9.x y MySQL 8.0.x.
-
 ## Cómo ejecutar la aplicación
 
 1. Ubícate en la carpeta `demo` a través de la consola (Git Bash, PowerShell, etc.).
