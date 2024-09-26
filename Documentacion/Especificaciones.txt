@@ -1,0 +1,27 @@
+La prueba tecnica fué desarrollada utilizando Java 17, Springboot 3.3, JWT y MySQL
+
+Asegurarse de tener instalado Java 17, Apache Maven 3.9.x y MySQL 8.0.x
+
+
+**Como ejecutar la applicacion**
+1.-Dirigirse al archivo "application.properties" ubicado en "src/main/prueba_tecnica/resources"
+    Realizar el cambio de usuario y contraseña para la conexion a la BDD (Linea 5 y 6)
+2.-Ubicarse en la carpeta demo a traves de la consola (gitbash, powershell, etc)
+3.-Ejecutar el comando "mvn spring-boot:run"
+4.-Encontraras la documentacion de Swagger en "http://localhost:8080/swagger-ui/index.html"
+    Donde encontrarás las rutas a utilizar en este servicio, además de los JSON que deberá enviar y cuales recibirá como respuesta a sus peticiones
+5.-Se realizara una petición POST a "http://localhost:8080/sign-up" con el JSON obtenido en la documentacion
+    Copiar la respuesta del apartado "token"
+6.-Para realizar el inicio de sesión se hara una solicitud POST a "http://localhost:8080/login"
+    Pegar en la seccion de Auth de Postman/Thunderclient en la opcion de Bearer el contenido de token copiado previamente
+    Enviar por cuerpo el JSON obtenido en la documentacion
+
+
+**Ubicacion y ejecucion de los Tests a los service de sign-up y login**
+        Los test se hicieron utilizando JUnit y Mockito
+
+1.-Para ejecutar los test debemos estar ubicados en la carpeta demo a traves de la consola
+2.-Ejecutar el comando "mvn test"
+    Esto nos retornara el resultado de la ejecucion de los test creados para login y sign-up
+3.-Los test se encuentran en el archivo "AuthServiceTest.java" ubicada en la
+    carpeta "src/test/java/prueba_tecnica/"
