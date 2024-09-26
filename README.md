@@ -6,15 +6,13 @@ Asegúrate de tener instalado Java 17, Apache Maven 3.9.x y MySQL 8.0.x.
 
 ## Cómo ejecutar la aplicación
 
-1. Dirígete al archivo `application.properties` ubicado en `src/main/prueba_tecnica/resources`.
-   Realiza el cambio de usuario y contraseña para la conexión a la BDD (Líneas 5 y 6).
-2. Ubícate en la carpeta `demo` a través de la consola (Git Bash, PowerShell, etc.).
-3. Ejecuta el comando `mvn spring-boot:run`.
-4. Encontrarás la documentación de Swagger en `http://localhost:8080/swagger-ui/index.html`,
+1. Ubícate en la carpeta `demo` a través de la consola (Git Bash, PowerShell, etc.).
+2. Ejecuta el comando `mvn spring-boot:run`.
+3. Encontrarás la documentación de Swagger en `http://localhost:8080/swagger-ui/index.html`,
    donde encontrarás las rutas a utilizar en este servicio, además de los JSON que deberás enviar y cuáles recibirás como respuesta a tus peticiones.
-5. Se realizará una petición POST a `http://localhost:8080/sign-up` con el JSON obtenido en la documentación.
+4. Se realizará una petición POST a `http://localhost:8080/sign-up` con el JSON obtenido en la documentación.
    Copia la respuesta del apartado "token".
-6. Para realizar el inicio de sesión, se hará una solicitud POST a `http://localhost:8080/login`.
+5. Para realizar el inicio de sesión, se hará una solicitud POST a `http://localhost:8080/login`.
    Pega en la sección de Auth de Postman/Thunderclient, en la opción de Bearer, el contenido de token copiado previamente.
    Envía por cuerpo el JSON obtenido en la documentación.
 
